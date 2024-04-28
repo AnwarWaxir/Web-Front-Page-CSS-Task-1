@@ -1,0 +1,89 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    background-image: url(images/background-image.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0;
+}
+/* Header */
+.header{
+    width: auto;
+    /* background-color: green; */
+}
+.logo{
+    width: 30%;
+    height: 100px;
+    margin-left: 50px;
+    margin-top: 0;
+    display: inline-block;
+}
+.logo>img{
+    width: 200px;
+    padding-left: 50px;
+    margin-top: 0px;
+}
+.section{
+    width: 55%;
+    height: 100px;
+    float: right;
+    margin-top: 0;
+    margin-right: 150px;
+    display: inline-block;
+}
+.section li{
+    color: white;
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 60px;
+    float: right;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/* Header */
+
+/* Body */
+.body-content{
+    /* background-color: green; */
+    margin: 110px auto 0 auto;
+    width: 700px;
+    height: 200px;
+}
+
+.body-content>h1{
+    color: white;
+    font-size: 55px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+
+.body-content>p{
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.buttons{
+    margin: 30px 0 0 185px;
+}
+.buttons>.button1{
+    background-color: rgb(0, 153, 133);
+    border: none;
+    border-radius: 25px;
+    padding: 11px 35px;
+    color: white;
+}
+
+.buttons>.button2{
+    background: none;
+    border:1px solid rgb(0, 153, 133);
+    border-radius: 25px;
+    padding: 11px 35px;
+    color: white;
+    margin-left: 10px;
+}
+/* Body */
